@@ -1,0 +1,60 @@
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #f6f6f6;
+    color: #c9c9c9;
+}
+  
+.topnav a.active {
+    background-color: #cccccc;
+    color: #ffffff;
+}
+
+.line{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 11px;
+    text-align: center;
+    color: #878787;
+}
+
+.sro{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    text-align: center;
+    color: #878787;
+}
+
+.mr{
+    font-family: 'Courier New', Courier, monospace;
+    color: #878787;
+    font-size: 11px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.plaats{
+    float: right;
+    padding-right: 10px;
+    position: relative;
+}
+
+.end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, 40%);
+}
